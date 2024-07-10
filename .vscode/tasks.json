@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Converge",
+        "type": "shell",
+        "command": "kitchen converge",
+        "presentation": {
+            "showReuseMessage": false
+        },
+        "options": {
+          "statusbar": {
+            "color" : "#FFFF00",
+            "label": "$(debug-restart) Converge",
+            "detail": "Converge TestKitchen"
+          }
+        }
+      }
+    ]
+  }
